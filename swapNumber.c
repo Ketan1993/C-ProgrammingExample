@@ -77,7 +77,7 @@ int main()
    #endif
    
 	#if SELECT_LOGIC == 3
-	  swapNum2 = (swapNum1 - swapNum2) - (swapNum1 = swapNum2);
+	  swapNum2 = (swapNum1 + swapNum2) - (swapNum1 = swapNum2);
 	 #endif
    printf("swap number 1 = %d\nswap number 2 = %d\n", swapNum1, swapNum2);
    
