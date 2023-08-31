@@ -23,7 +23,7 @@ int main()
 
 #ifdef ARRAY_SORT
 
-	printf("before sort array \n");
+	printf("array before sort array \n");
 	print_array_(a, a_size);
 
 	ret = sort_arry_in_ascending_order(a, a_size);
@@ -37,7 +37,7 @@ int main()
 
 #ifdef BUBBLE_SORT
 
-	printf("before sort array \n");
+	printf("array before sort\n");
 	print_array_(a, a_size);
 
 	bubble_sort_array(a, a_size);
