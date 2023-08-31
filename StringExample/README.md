@@ -44,6 +44,7 @@ int main()
 	__string_cpy(str2, str1);
 	printf("string: %s\n", str2);
 	#endif //__STRING_CPY
+	
 	return 0;
 }
 
