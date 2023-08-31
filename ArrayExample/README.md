@@ -21,7 +21,8 @@ Use following command to run the executed program file.
 Following program is availabe in Array Example.
 
 ```
-    1. Use sort_arry_in_ascending_order Function to sort array.
+    1. To ascending order array sort use sort_arry_in_ascending_order() function
+    2. To bubble sort method use bubble_sort_array() function
 ```
 
 ## Configure Program
