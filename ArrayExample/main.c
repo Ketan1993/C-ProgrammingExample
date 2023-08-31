@@ -17,6 +17,7 @@ static void print_array_(int a[], int size)
 
 int main()
 {
+	int ret = 0;
 	int a[] = {1, 5, 2, 4, 3, 10, 6};
 	int a_size = sizeof(a) / sizeof(a[0]);
 
@@ -25,14 +26,26 @@ int main()
 	printf("before sort array \n");
 	print_array_(a, a_size);
 
-	int ret = sort_arry_in_ascending_order(a, a_size);
+	ret = sort_arry_in_ascending_order(a, a_size);
 
 	if (ret == 1)
 	{
 		printf("ascending order array \n");
 		print_array_(a, a_size);
+	}
 #endif // ARRAY_SORT
 
-		return 0;
-	}
+#ifdef BUBBLE_SORT
+
+	printf("before sort array \n");
+	print_array_(a, a_size);
+
+	bubble_sort_array(a, a_size);
+
+	printf("bubble sort array \n");
+	print_array_(a, a_size);
+
+#endif // BUBBLE_SORT
+
+	return 0;
 }
