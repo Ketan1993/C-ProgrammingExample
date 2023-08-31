@@ -23,8 +23,9 @@ Function name is created as per the program example.
 
 See below example for bubble sort method.
 
-`// common array print function
-// pass array
+```
+//common array print function
+ pass array
 // pass length of array
 static void print_array_(int a[], int size);
 
@@ -42,7 +43,7 @@ int main()
 	int ret = 0;
 	int a[] = {1, 5, 2, 4, 3, 10, 6};
 	int a_size = sizeof(a) / sizeof(a[0]);
-    
+
 #ifdef BUBBLE_SORT
 
 	printf("array before sort\n");
@@ -56,6 +57,7 @@ int main()
 #endif // BUBBLE_SORT
 
 	return 0;
-} `
+}
+```
 
 	
