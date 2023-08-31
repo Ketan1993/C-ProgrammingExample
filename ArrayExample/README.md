@@ -18,7 +18,11 @@ Use following command to run the executed program file.
 `$ ./app.exe`
 
 ## List of Example
+Following program is availabe in Array Example.
 
+```
+    1. Use sort_arry_in_ascending_order Function to sort array.
+```
 
 ## Configure Program
 You can enable the program by define the particular `#define ` See `array.h` for defination.
