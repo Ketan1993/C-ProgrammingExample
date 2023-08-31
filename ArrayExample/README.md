@@ -16,4 +16,9 @@ See Build directory to run the program.
 Use following command to run the executed program file.
 
 `$ ./app.exe`
+
+## Configure Program
+You can enable the program by define the particular `#define MACRO` See `array.h` for defination.
+Function name is created as per the program example. 
+
 	
