@@ -21,7 +21,7 @@ Use following command to run the executed program file.
 Following program is availabe in String Example.
 
 ```
-    
+    1. To Copy string from source to destination use __string_cpy() function.
 ```
 
 ## Configure Program
@@ -31,6 +31,21 @@ Function name is created as per the program example.
 See below example for string copy.
 
 ```
+#include <stdio.h>
+#include "string.h"
+
+int main()
+{
+	#define MAX_STRING_SIZE 20
+	char str1[MAX_STRING_SIZE] = "Ketan";
+	char str2[MAX_STRING_SIZE];
+
+	#ifdef __STRING_CPY
+	__string_cpy(str2, str1);
+	printf("string: %s\n", str2);
+	#endif //__STRING_CPY
+	return 0;
+}
 
 ```
 
