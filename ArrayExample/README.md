@@ -24,8 +24,11 @@ Function name is created as per the program example.
 See below example for bubble sort method.
 
 ```
+#include <stdio.h>
+#include "array.h"
+
 //common array print function
- pass array
+//pass array
 // pass length of array
 static void print_array_(int a[], int size);
 
