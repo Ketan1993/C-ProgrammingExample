@@ -5,6 +5,6 @@
     /**
      * function
     */
-   void sort_arry_in_ascending_order(int a[], int array_size);
+   int sort_arry_in_ascending_order(int a[], int array_size);
 
 #endif //ARRAY_H_INCL
