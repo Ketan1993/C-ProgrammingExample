@@ -1,5 +1,7 @@
 #include "array.h"
 
+#ifdef ARRAY_SORT
+
 int sort_arry_in_ascending_order(int a[], int array_size)
 {
     //no need to sort the array
@@ -23,6 +25,9 @@ int sort_arry_in_ascending_order(int a[], int array_size)
     }
     return 1;
 }
+#endif //ARRAY_SORT
+
+#ifdef BUBBLE_SORT
 
 int bubble_sort_array(int a[], int array_size)
 {
@@ -80,4 +85,5 @@ int bubble_sort_array(int a[], int array_size)
     }
     return 1;
 }
+#endif //BUBBLE_SORT
    

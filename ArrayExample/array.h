@@ -1,7 +1,7 @@
 #ifndef ARRAY_H_INCL
 #define ARRAY_H_INCL
 
-//#define ARRAY_SORT
+// #define ARRAY_SORT
 #define BUBBLE_SORT
 /**
  * function
