@@ -22,6 +22,7 @@ Following program is availabe in String Example.
 
 ```
     1. To Copy string from source to destination use __string_cpy() function.
+	2. To Delete char from givin position use delete_char_in_string() function.
 ```
 
 ## Configure Program
