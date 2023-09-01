@@ -5,6 +5,10 @@ Individual folder or project is created for topic. Have a look into your desire 
 Run Individual program from folder. Program is created under makefile structure. run standard makefile command to execute the binary.
 binary will be copy to build directory.
 
+Enable `#define` in `header file` before use any function.
+
+Let say you have to use String Example, Use `string.h` file to Enable the `#define`.
+
 ## Contribute
 Most welcome.
 	
