@@ -7,9 +7,12 @@ Makefile is design such a way that, the output of the builder will be copy to bu
 
 Use following command to build the program
 
+```
 `$ make`
 
 `$ make clean`
+
+```
 
 ## Run Program
 See Build directory to run the program.
@@ -25,8 +28,8 @@ Following program is availabe in String Example.
 ```
     1. To Copy string from source to destination use __string_cpy() function.
     2. To Delete char from givin position use delete_char_in_string() function.
-    3. To Reverse the string use string_reverse() function.      
-	4. 
+    3. To Reverse the string use string_reverse() function.
+
 
 ```
 
