@@ -28,7 +28,6 @@ Following program is availabe in String Example.
     3. To Reverse the string use string_reverse() function.      
 	4. 
 
-
 ```
 
 ## Configure Program
