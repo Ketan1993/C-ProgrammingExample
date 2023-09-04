@@ -55,11 +55,12 @@ char *delete_char_in_string(char *str, char pos)
 char *string_reverse(char *str)
 {
     char *s = str;
-    int len = strlen((const char*)str) - 1;
+    int len = strlen((const char *)str) - 1;
     char *end = s + len;
-
-    while(s < end)
+    // check up to last character
+    while (s < end)
     {
+        //take temp variable and initialize
         char temp = *s;
         *s = *end;
         *end = temp;
