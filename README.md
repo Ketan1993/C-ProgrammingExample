@@ -11,4 +11,6 @@ Let say you have to use String Example, Use `string.h` file to Enable the `#defi
 
 ## Contribute
 Most welcome.
+
+Contact on: ketanvadodariya@outlook.com
 	
