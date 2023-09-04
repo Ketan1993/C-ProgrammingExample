@@ -5,8 +5,11 @@ int main()
 {
 	#define MAX_STRING_SIZE 20
 	char str1[MAX_STRING_SIZE] = "Ketan";
+
+	#ifdef STRING_REVERSE
+	string_reverse(str1);
+	printf("reverse string %s\n", str1);
+	#endif //STRING_REVERSE
 	
-	delete_char_in_string(str1, 1);
-	printf("String: %s\n", str1);
 	return 0;
 }
