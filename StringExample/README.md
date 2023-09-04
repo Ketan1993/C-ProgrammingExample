@@ -8,6 +8,7 @@ Makefile is design such a way that, the output of the builder will be copy to bu
 Use following command to build the program
 
 `$ make`
+
 `$ make clean`
 
 ## Run Program
