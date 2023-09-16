@@ -4,7 +4,7 @@
 // #define ARRAY_SORT
 #define BUBBLE_SORT
 /**
- * function
+ * @breif sort array function
  */
 int sort_arry_in_ascending_order(int a[], int array_size);
 

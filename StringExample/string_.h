@@ -1,5 +1,6 @@
-#ifndef STRING___H_INCL
-#define STRING___H_INCL
+#ifndef MY_STRING___H_INCL
+#define MY_STRING___H_INCL
+
 #include <stdlib.h>
 #include <string.h>
 
@@ -24,4 +25,4 @@ char *delete_char_in_string(char *str, char pos);
 // pass valid string
 char *string_reverse(char *str);
 
-#endif // STRING___H_INCL
+#endif // MY_STRING___H_INCL
