@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1694843679 source:d:\github\c-programmingexample\stringexample\main.c
+	<stdio.h>
+	"string.h"
+
+1694844252 d:\github\c-programmingexample\stringexample\string.h
+	<stdlib.h>
+	<string.h>
+
+1694843679 source:d:\github\c-programmingexample\stringexample\string.c
+	"string.h"
+

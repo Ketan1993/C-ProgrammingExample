@@ -1,2 +1,5 @@
 #ignore vscond
 .vscode
+
+#ignore codeblock project
+.C-Programming/*

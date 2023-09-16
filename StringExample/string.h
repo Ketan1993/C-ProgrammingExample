@@ -21,6 +21,7 @@ char *delete_char_in_string(char *str, char pos);
 #define STRING_REVERSE
 // string reverse function
 // pass string as an input
+// pass valid string
 char *string_reverse(char *str);
 
 #endif // STRING___H_INCL
