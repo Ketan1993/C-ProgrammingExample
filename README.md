@@ -10,7 +10,7 @@ Enable `#define` in `header file` before use any function.
 Let say you have to use String Example, Use `string.h` file to Enable the `#define`.
 
 ## Contribute
-Most welcome.
+Most welcome!
 
 Contact on: ketanvadodariya@outlook.com
 	
