@@ -60,7 +60,7 @@ char *string_reverse(char *str)
     // check up to last character
     while (s < end)
     {
-        //take temp variable and initialize
+        // take temp variable and initialize
         char temp = *s;
         *s = *end;
         *end = temp;
