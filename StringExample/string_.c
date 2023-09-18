@@ -73,3 +73,13 @@ char *string_reverse(char *str)
 }
 
 #endif // STRING_REVERSE
+
+#ifdef STRING_LEN
+int string_len(const char *s)
+{
+    int n = 0;
+    while(*s++)n++;
+    return n;
+}
+
+#endif // STRING_LEN

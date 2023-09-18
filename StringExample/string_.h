@@ -25,4 +25,7 @@ char *delete_char_in_string(char *str, char pos);
 // pass valid string
 char *string_reverse(char *str);
 
+#define STRING_LEN
+int string_len(const char *s);
+
 #endif // MY_STRING___H_INCL
