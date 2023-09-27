@@ -35,14 +35,14 @@ Following program is availabe in String Example.
 ```
 
 ## Configure Program
-You can enable the program by define the particular `#define ` See `string.h` for defination.
+You can enable the program by define the particular `#define ` See `my_string.h` for defination.
 Function name is created as per the program example. 
 
 See below example for string copy.
 
 ```
 #include <stdio.h>
-#include "string.h"
+#include "my_string.h"
 
 int main()
 {
