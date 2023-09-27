@@ -22,7 +22,7 @@ Use following command to run the executed program file.
 `$ ./app.exe`
 
 ## List of Example
-Following program is availabe in String Example.
+Following program is availabe in Function Pointer Example.
 
 
 ```
@@ -33,7 +33,7 @@ Following program is availabe in String Example.
 You can enable the program by define the particular `#define ` See `FunctionPointer.h` for defination.
 Function name is created as per the program example. 
 
-See below example for string copy.
+See below example for Function Pointer.
 
 ```
 #include <stdio.h>
