@@ -1,4 +1,4 @@
-#include "string_.h"
+#include "my_string.h"
 
 #ifdef __STRING_CPY
 
