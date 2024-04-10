@@ -7,7 +7,7 @@ binary will be copy to build directory.
 
 Enable `#define` in `header file` before use any function.
 
-Let say you have to use String Example, Use `string.h` file to Enable the `#define`.
+Let say you have to use String Example, Use `string.h` file to Enable the `#define` for string Example.
 
 ## Contribute
 Most welcome!
